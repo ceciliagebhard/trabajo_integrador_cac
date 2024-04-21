@@ -1,1 +1,69 @@
+:root {
+    --bg-color: #FBF3F2;
+    --fonts-color: #0B1830;
+    --color-sec: #FA991C;
+    --navbar-footer-bgcolor: #1C768F;
+    --global-height: 300svh;
+    --extra-color-1: #94D4DE;
+    --extra-color-2: #91785D;
+    border: 0;
 
+}
+
+
+
+nav {
+    height: 30rem;
+    width: 100%;
+    text-align: left;
+    background-color: var(--navbar-footer-bgcolor);
+    color: var(--fonts-color);
+    background-image: url(../images/walking_through_venice.jpeg);
+    backdrop-filter: blur(50px);
+    background-size: cover;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-end;
+}
+
+#hero {
+    padding: 5rem;
+    display: flex;
+    width: 5rem;
+}
+
+.container-fluid {
+    align-self: flex-end;
+}
+
+
+.emailform {
+    padding: 1rem;
+    background-color: var(--navbar-footer-bgcolor);
+    color: var(--color-sec);
+    display: flex;
+    justify-content: space-around;
+}
+
+.tarjetas {
+    padding: 5rem;
+    display: grid;
+    grid-template-areas:
+        ". . ."
+        ". . ."
+        ". . .";
+
+    gap: 1rem;
+}
+
+footer {
+    padding-top: 2rem;
+    height: 10rem;
+    width: 100%;
+    background-color: var(--navbar-footer-bgcolor);
+    color: var(--color-sec);
+    text-align: center;
+    align-items: center;
+}
