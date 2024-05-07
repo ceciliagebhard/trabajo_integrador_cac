@@ -142,7 +142,7 @@ body {
     }
 
     to {
-        translate: 3rem;
+        translate: 2rem;
         font-size: 45px;
     }
 }
@@ -209,7 +209,7 @@ body {
     }
 
     to {
-        translate: 2rem;
+        translate: 3rem;
         font-size: 45px;
     }
 }
