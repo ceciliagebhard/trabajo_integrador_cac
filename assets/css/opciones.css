@@ -148,6 +148,26 @@ video {
 
 }
 
+@media (width <=700px) {
+    .navbar-list {
+        display: block;
+    }
+
+    .nav-container {
+        height: 15rem;
+    }
+}
+
+@media (width <=500px) {
+    .navbar-list {
+        display: block;
+    }
+
+    .nav-container {
+        height: 20rem;
+    }
+}
+
 
 
 
@@ -190,6 +210,7 @@ main {
     box-sizing: border-box;
     text-align: center;
     height: 20rem;
+    width: 20rem;
     position: relative;
     transition: transform 0.3s;
     cursor: pointer;
